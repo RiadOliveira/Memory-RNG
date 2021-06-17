@@ -1,4 +1,6 @@
+#include <iostream>
 #include <typeinfo>
+using namespace std;
 
 template <typename T>
 T GRand(T begin, T end) {
@@ -41,7 +43,7 @@ T GRand(T begin, T end) {
 
 	double point = previousValues[0];
 	
-	if(typeid(begin) == typeid(float) || typeid(begin) == typeid(double)) {
+	if((typeid(begin) == typeid(float) || typeid(begin) == typeid(double)) && previousValues[ind] != end) {
 		bool isGood;
 
 		for(int i=0 ; i<ind ; i++) {

@@ -1,6 +1,4 @@
-#include <iostream>
 #include <typeinfo>
-using namespace std;
 
 template <typename T>
 T GRand(T begin, T end) {

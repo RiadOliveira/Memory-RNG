@@ -1,3 +1,6 @@
-# RandomValueGenerator
-A basic value generator for C++ which uses variable's adresses for generation.</br>
-It just needs to pass the interval of values (Begin and end), which can also be negative or floating point numbers.
+<h1 align="center">Memory-RNG</h1>
+
+<p align="center">A basic RNG for C++, which uses variable's adresses to generate the random values.</p>
+
+<h2>About</h2>
+<p>It just needs to receive the interval of values (Begin and end), which can also be negative or floating point numbers.</p>
